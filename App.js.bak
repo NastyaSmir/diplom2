@@ -1,0 +1,32 @@
+import React from 'react';
+import logo from './logo.svg';
+import './App.css';
+import { Button } from 'react-bootstrap';
+import 'bootstrap/dist/css/bootstrap.min.css';
+import Header from './Components/Header';
+
+function App () {
+
+  return (
+    <div classNam='app'>
+      <form>
+        <h1>Регистрация</h1>
+        <input name='email' type="text" placeholder="Enter your email..." />
+        <input name='password' type="text" placeholder="Enter your email..." />
+        <button type='submit'>Registation</button>
+      </form>
+
+    </div>
+  )
+
+}
+
+function App() {
+  return (
+    <div>
+      <Header/>
+    </div>
+  );
+}
+
+export default App;
